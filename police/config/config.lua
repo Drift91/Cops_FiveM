@@ -15,7 +15,7 @@ config = {
 	
 	enableOtherCopsBlips = true,
 	useNativePoliceGarage = true,
-	enableNeverWanted = true,
+	enableNeverWanted = false,
 	
 	propsSpawnLimitByCop = 20,
 	
@@ -41,18 +41,18 @@ config = {
 	--Customizable Departments
 	departments = {
 		label = {
-			[0] = "Park Rangers",
+			[0] = "San Andreas Park Ranger",
 			[1] = "Los Santos Police Department",
-			[2] = "Sheriff's Department",
-			[3] = "State Highway Patrol",
-			[4] = "Prison Department"
+			[2] = "Los Santos County Sheriff",
+			[3] = "San Andreas Highway Patrol",
+			[4] = "San Andreas State Prison Authority"
 		},
 
 		minified_label = {
-			[0] = "PR",
+			[0] = "SAPR",
 			[1] = "LSPD",
-			[2] = "SHR",
-			[3] = "SHP ",
+			[2] = "LSSD",
+			[3] = "SAHP",
 			[4] = "PRISON"
 		}
 	},
@@ -62,88 +62,88 @@ config = {
 
 		--You can add or remove ranks as you want (just make sure to use numeric index, ascending)
 		label = {
-			[0] = "Trainee", -- Ranger Rank
+			[0] = "Cadet", -- Ranger Rank
 			[1] = "Trainee", -- LSPD Rank
 			[2] = "Trainee", -- Sheriff Rank
-			[3] = "Trainee", -- State Highway Patrol Rank
+			[3] = "Cadet", -- State Highway Patrol Rank
 
-			[4] = "Park Ranger",
+			[4] = "Ranger",
 			[5] = "Police Officer",
 			[6] = "Deputy Sheriff",
-			[7] = "State Trooper",
+			[7] = "Officer",
 
-			[8] = "Park Ranger II",
+			[8] = "Ranger II",
 			[9] = "Master Police Officer",
 			[10] = "Deputy Sheriff II",
-			[11] = "State Trooper II",
+			[11] = "Officer II",
 
-			[12] = "Sergeant",
+			[12] = "Supervisor",
 			[13] = "Sergeant",
 			[14] = "Sergeant",
 			[15] = "Sergeant",
 
-			[16] = "Lieutenant",
+			[16] = "Superintendent",
 			[17] = "Lieutenant",
 			[18] = "Lieutenant",
 			[19] = "Lieutenant",
 
-			[20] = "Captian",
-			[21] = "Captian",
-			[22] = "Captian",
-			[23] = "Captian",
+			[20] = "Superintendent II",
+			[21] = "Captain",
+			[22] = "Captain",
+			[23] = "Captain",
  
-			[24] = "Game Warden ",
+			[24] = "Chief of SAPR ",
 			[25] = "Chief of Police",
 			[26] = "Sheriff",
-			[27] = "Chief of SHP",
+			[27] = "Chief of SAHP",
 
 			[28] = "Ranger Admin Rank",
 			[29] = "Police Admin Rank",
 			[30] = "Sheriff Admin Rank",
-			[31] = "SHP Admin Rank",
+			[31] = "SAHP Admin Rank",
 		},
 
 		--Used for chat
 		minified_label = {
-			[0] = "TNE",
-			[1] = "TNE", --1
-			[2] = "TNE",
-			[3] = "TNE",
+			[0] = "Cdt",
+			[1] = "Trne", --1
+			[2] = "Trne",
+			[3] = "Cdt",
 
-			[4] = "PR",
+			[4] = "Rngr",
 			[5] = "PO", --2
-			[6] = "DS",
-			[7] = "ST",
+			[6] = "Dep",
+			[7] = "Ofc",
 
-			[8] = "PR2",
+			[8] = "Rngr2",
 			[9] = "MPO", --3
-			[10] = "DS2",
-			[11] = "ST2",
+			[10] = "Dep2",
+			[11] = "Ofc2",
 
-			[12] = "SGT",
-			[13] = "SGT", --4
-			[14] = "SGT",
-			[15] = "SGT",
+			[12] = "Sup",
+			[13] = "Sgt", --4
+			[14] = "Sgt",
+			[15] = "Sgt",
 
-			[16] = "LT",
-			[17] = "LT", --5
-			[18] = "LT",
-			[19] = "LT",
+			[16] = "Supt",
+			[17] = "Lt", --5
+			[18] = "Lt",
+			[19] = "Lt",
 
-			[20] = "CPT",
-			[21] = "CPT", --6
-			[22] = "CPT",
-			[23] = "CPT",
+			[20] = "Supt2",
+			[21] = "Cpt", --6
+			[22] = "Cpt",
+			[23] = "Cpt",
 
-			[24] = "GW",
-			[25] = "COP", --7
-			[26] = "SHF",
-			[27] = "COS",
+			[24] = "CoPR",
+			[25] = "CoP", --7
+			[26] = "Shf",
+			[27] = "CoHP",
 
-			[28] = "RAR",
-			[29] = "APR", --8
-			[30] = "ASR",
-			[31] = "SSR",
+			[28] = "Admin",
+			[29] = "Admin", --8
+			[30] = "Admin",
+			[31] = "Admin",
 		},
 
 		--You can set here a badge for each rank you have. You have to enable "enableOutfits" to use this
